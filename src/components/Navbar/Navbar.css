@@ -1,0 +1,32 @@
+.navbar_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+}
+.navbar_logo{
+    position: fixed;
+    left: 10px;
+    top: 5px;
+    height: 50px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.navbar_button{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.user_name{
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    font-weight: 700;
+}
